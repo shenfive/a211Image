@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var theImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        if let path = Bundle.main.path(forResource:"image" , ofType: "jpeg"){
+            theImageView.image = UIImage.init(contentsOfFile: path)
+        }
     }
 
 
