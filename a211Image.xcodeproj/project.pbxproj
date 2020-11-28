@@ -13,7 +13,6 @@
 		3B918A76257246C70064C299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B918A74257246C70064C299 /* Main.storyboard */; };
 		3B918A78257246C90064C299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B918A77257246C90064C299 /* Assets.xcassets */; };
 		3B918A7B257246C90064C299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B918A79257246C90064C299 /* LaunchScreen.storyboard */; };
-		3B918A842572473A0064C299 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3B918A832572473A0064C299 /* image.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		3B918A77257246C90064C299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B918A7A257246C90064C299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B918A7C257246C90064C299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B918A832572473A0064C299 /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				3B918A6E257246C70064C299 /* AppDelegate.swift */,
-				3B918A832572473A0064C299 /* image.jpeg */,
 				3B918A70257246C70064C299 /* SceneDelegate.swift */,
 				3B918A72257246C70064C299 /* ViewController.swift */,
 				3B918A74257246C70064C299 /* Main.storyboard */,
@@ -128,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B918A7B257246C90064C299 /* LaunchScreen.storyboard in Resources */,
-				3B918A842572473A0064C299 /* image.jpeg in Resources */,
 				3B918A78257246C90064C299 /* Assets.xcassets in Resources */,
 				3B918A76257246C70064C299 /* Main.storyboard in Resources */,
 			);
